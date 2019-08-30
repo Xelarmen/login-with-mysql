@@ -5,7 +5,7 @@ Set Database and;
 
 ```
 $ git clone https://github.com/Xelarmen/login-with-mysql
-$ cd usercontrol
+$ cd login-with-mysql
 $ python usercontrol.py
 
 ```
