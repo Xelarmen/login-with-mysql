@@ -15,7 +15,7 @@ $ python usercontrol.py
 Create new table. Its have 2 columns. 
 
 Column Properties:
-Type            = 'text'
+Type            = 'text'\n
 Encoding Type   = 'utf8_general_ci'
 
 ## Rows that require personalization
