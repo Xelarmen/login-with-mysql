@@ -30,21 +30,21 @@ mydb = mysql.connector.connect(host="$$$",user="$$$",passwd="$$$",database="$$$"
 ```
 #### Table and Column Names
 
-14.Line
+8.Line
 
 ```
-kullanicisql= "SELECT COUNT(firstcolumnname) FROM `tablename` WHERE `firstcolumnname`='"+kullanici+"'"
+kullanicisql = "SELECT COUNT(firstcolumnname) FROM `tablename` WHERE `firstcolumnname`='" + kadi + "'"
 
 ```
-20.Line 
+15.Line 
 
 ```
-sql = "INSERT INTO `tablename`(`firstcolumnname`, `sifre`) VALUES ('"+kullanici +"','"+sifre+"')"
+sql = "INSERT INTO `tablename`(`firstcolumnname`, `secondcolumnname`) VALUES ('" + kadi + "','" + sifre + "')"
 
 ```
-35.Line
+25.Line
 
 ```
-sql ="SELECT `secondcolumnname` FROM `tablename` WHERE `firstcolumnname`= '"+kullanici+"' "
+sql = "SELECT `secondcolumnname` FROM `tablename` WHERE `firstcolumnname`= '" + kadi + "' "
 
 ```
